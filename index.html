@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>OzTes Şerit Testere</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/LOGO.png" />
+      <div>
+      <p>
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
+        <path
+          d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+        />
+      </svg>
+        0533 602 26 49
+      </p>
+      <p>
+        <svg height="1em" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M44 24V9H24H4V24V39H24" stroke="#333" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M31 36L36 40L44 30" stroke="#333" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 9L24 24L44 9" stroke="#333" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/></svg> 
+        osari@oztes.com.tr</p>
+    </div>
+    </header>
+
+<main>
+    <h1 style="font-size: 0.1px;">OzTes Şerit Testereleri - Saw Rex Markası</h1>
+    <!-- sectionOne start-->
+    <section class="sectionOne">
+        <img src="/images/test.jpg"/>
+<div class="sectionOne_text">
+        <p> Düşük maliyet, uzun ömür ve hızlı teslimat. <b>Alman</b> kalitesi ile bir adım öne çıkın.</p>
+        <p><b style="font-size: 2rem;">Saw-Rex</b> kullanın.</p>
+        <p>Referanslarımız için <i>tıklayın </i>.</p>
+        <div class="orangeBox"><p>Diş Hesap seçimi için  <a href="#secim"> <i>tıklayınız</i></a>.</p></div>
+    </div>
+</section>
+    <!-- sectionOne finish -->
+
+    <section class="sectionTwo">
+    
+        <div class="sectionTwo_container">
+            <div class="sectionTwo_left">
+              <h2 style="margin-left: 1rem;" id="secim">
+                Testere Seçimi
+            </h2>
+        <div class="sectionTwo_box">
+          <p> Profil Tipi </p> 
+          <div style="background-color: rgb(214, 213, 213);">
+            <input type="radio" id="boru" name="profil_tipi" value="boru" onchange="handleChange(this)">
+            <label for="boru">Tüp-Boru</label><br>
+            <input type="radio" id="dolu" name="profil_tipi" value="dolu" onchange="handleChange(this)">
+            <label for="dolu">Dolu Malzeme</label><br>
+        </div>
+        </div>
+        <div class="new_area"></div>
+        </div>
+        <div style="display: flex;flex-direction: column;">
+        <img class="sectionTwo_img" src="/images/testere.JPG">
+        <button style="background-color: orange;font-weight: bolder;font-size: 1rem;border-radius: 2rem;margin-top: -1rem;padding: 0.5rem;" id="siparis">Sipariş Ver</button>
+        <p id="selected_values"></p>
+        </div>
+    </div>
+    </section>
+    <section class="sectionThree">
+     <a href="/images/SECim1.jpg" target="_blank"><img src="/images/SECim1.jpg"></a>
+     <a href="/images/secim2.webp" target="_blank"><img src="/images/secim2.webp"></a> 
+    </section>
+</main>
+
+<footer>
+  <div>
+<p>OZ-TES Testere ve Endüstriyel Ürünler  
+  SAWREX Bi-metal Şerit Testere Trakya Bölge Bayi
+  </p>
+<p>Merkez: Altıntepe Mahallesi Galip Bey Caddesi No:82/A Maltepe – İstanbul</p>
+<p>Şube: Esentepe Mahallesi Adnan Doğu Caddesi No:18/A3 Çorlu - Tekirdağ</p>
+</div>
+<div>
+  facebook
+</div>
+</footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

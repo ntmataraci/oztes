@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+p{
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #fdf9f9c0;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: currentColor;
+}
+
+@media only screen and (max-width: 500px) {
+    .header p {
+        font-size: 0.9rem!important;
+    }
+    main {
+      padding:0 0.5rem;
+    }
+    img {
+        max-width: 100%;
+    }
+    .sectionTwo_img{
+        width: 100%;
+    }
+    footer{
+        padding:0 0.5rem;
+        flex-wrap: wrap;
+    }
+  }
+
+/* header */
+.header {
+    background-color: #ffdbdb ;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:1rem ;
+    align-items: center;
+}
+
+.header img{
+    height: 100%;
+}
+
+.header p{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color:#424242;
+}
+
+.header p svg{
+    margin-right: 1rem;
+    fill:grey;
+}
+
+/* header end*/
+
+/* sectionOne*/
+.sectionOne{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.sectionOne_text{
+    min-width: 200px;
+}
+.orangeBox {
+    background-color: #FF7878;
+    color:white;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 60px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* sectionOne End*/
+
+.sectionTwo{
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.sectionTwo_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionTwo_left{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    min-width: 350px;
+}
+
+.sectionTwo_box{
+    background-color: #FFADAD;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.sectionTwo_img{
+    min-width: 300px;
+    max-width: 400px;
+}
+
+/* sectionTwo end*/
+
+.sectionThree {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.sectionThree img{
+    max-width: 100%;
+}
+
+
+footer{
+    background-color: darkorange;
+    margin-top: 2rem;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    font-size: 0.8rem;
+}
