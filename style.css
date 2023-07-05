@@ -23,6 +23,11 @@ a:hover, a:visited, a:link, a:active
     color: currentColor;
 }
 
+main{
+    max-width: 1200px;
+    margin:auto;
+}
+
 @media only screen and (max-width: 500px) {
     .header p {
         font-size: 0.9rem!important;
